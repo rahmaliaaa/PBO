@@ -15,11 +15,11 @@ public class TestKoperasi {
         System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
 
         System.out.println("\nMembayar angsuran 1.000.000");
-        anggota1.angsur(1000000);
+        anggota1.angsur(100000);
         System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
 
         System.out.println("\nMembayar angsuran 3.000.000");
-        anggota1.angsur(3000000);
+        anggota1.angsur(300000);
         System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
     }
 }

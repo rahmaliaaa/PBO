@@ -1,11 +1,11 @@
-public class Anggota {
+public class Anggotaa {
     private String nomorKTP;
     private String nama;
     private double limitPeminjaman;
     private double jumlahPinjaman;
 
     // Constructor
-    public Anggota(String nomorKTP, String nama, double limitPeminjaman) {
+    public Anggotaa(String nomorKTP, String nama, double limitPeminjaman) {
         this.nomorKTP = nomorKTP;
         this.nama = nama;
         this.limitPeminjaman = limitPeminjaman;

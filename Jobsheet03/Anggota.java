@@ -47,7 +47,9 @@ public class Anggota {
         }
 
         // Method untuk mengangsur pinjaman
-        public void angsur(double jumlah) {
+        public void angsur(double jumlah) { //modifikasi nomor 2
+            double minimalAngsuran = jumlahPinjaman * 0.1;
+
             if (jumlah <= 0) {
                 System.out.println("Jumlah angsuran harus lebih dari 0.");
             } else if (jumlah > jumlahPinjaman) {
